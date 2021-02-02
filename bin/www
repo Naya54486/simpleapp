@@ -14,7 +14,7 @@ var models = require('../models');
  */
 
 //var port = 8081;
-var port = normalizePort(process.env.PORT || '8080');
+var port = normalizePort(process.env.PORT || '8081');
 app.set('port', port);
   /**
    * Create HTTP server.
